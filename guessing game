@@ -1,0 +1,14 @@
+# Biny Baby, 2018-02-18
+# guessing game
+
+Target = 10
+Guess =7
+
+while Target != Guess:
+   Guess = int(input("Enter a number: "))
+   if Guess == Target:
+       print("Well Done")
+   elif Guess < Target:
+        print("Too Low")
+   else:
+        print("Too High")
